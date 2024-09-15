@@ -1,0 +1,3 @@
+2024-09-03 10:04:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUTOS" not found (this database is empty); SQL statement:
+INSERT INTO produtos (nome, preco, quantidade) VALUES (?, ?, ?) [42104-214]
