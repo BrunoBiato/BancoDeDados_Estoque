@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class DatabaseConnection {
     private static final String URL = "jdbc:mysql://192.223.2.22:3306/estoque?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC"; //ip do servidor
-    private static final String USER = "USER SQL;
+    private static final String USER = "USER SQL"
     private static final String PASSWORD = "SENHA DO SQL";
 
     public static Connection getConnection() throws SQLException {
